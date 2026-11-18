@@ -547,7 +547,6 @@ export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     Short_description: Schema.Attribute.Text;
     Slug: Schema.Attribute.String;
-    Sort_order: Schema.Attribute.Integer;
     Title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

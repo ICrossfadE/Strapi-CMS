@@ -44,9 +44,6 @@
       "relation": "oneToOne",
       "target": "api::blog-category.blog-category",
       "mappedBy": "blog_post"
-    },
-    "Sort_order": {
-      "type": "integer"
     }
   }
 }
