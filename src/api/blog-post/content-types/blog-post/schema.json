@@ -33,6 +33,9 @@
         "audios"
       ]
     },
+    "image_url": {
+      "type": "string"
+    },
     "Post_text": {
       "type": "blocks"
     },
