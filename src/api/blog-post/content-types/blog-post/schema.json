@@ -15,7 +15,8 @@
       "type": "string"
     },
     "Slug": {
-      "type": "string"
+      "type": "uid",
+      "targetField": "Title"
     },
     "Short_description": {
       "type": "text"

@@ -546,7 +546,7 @@ export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
     Post_text: Schema.Attribute.Blocks;
     publishedAt: Schema.Attribute.DateTime;
     Short_description: Schema.Attribute.Text;
-    Slug: Schema.Attribute.String;
+    Slug: Schema.Attribute.UID<'Title'>;
     Sort_order: Schema.Attribute.Integer;
     Title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
